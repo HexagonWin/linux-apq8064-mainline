@@ -17,9 +17,9 @@
 
 		ranges;
 
-		framebuffer0: framebuffer@0x4700000 {
+		framebuffer0: framebuffer@0x8f800000 {
 			compatible = "simple-framebuffer";
-			reg = <0x4700000 (720 * 1280 * 3)>;
+			reg = <0x8f800000 (720 * 1280 * 3)>;
 			width = <720>;
 			height = <1280>;
 			stride = <(720 * 3)>;
